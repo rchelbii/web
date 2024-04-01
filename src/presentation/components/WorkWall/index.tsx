@@ -1,17 +1,11 @@
 import React from "react";
-import Card, { CardProps } from "./Card";
-import reditoImage from "../../../../public/work/redito.png";
+import Card from "./Card";
+import { recentWorkData } from "@/data/recent-work.data";
 
-const data: CardProps[] = [
-  {
-    link: "https://github.com/rchelbii/redito",
-    imageSource: reditoImage,
-  },
-];
 const WorkWall = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 place-content-center place-items-center">
-      {data.map((item, index) => (
+      {recentWorkData.map((item, index) => (
         <Card {...item} />
       ))}
     </div>

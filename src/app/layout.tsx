@@ -18,7 +18,8 @@ export const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Riadh Chelbi | Software Engineer",
-  description: "",
+  description:
+    "Riadh Chelbi | Software Engineer | Web Specialist | Restfull API",
 };
 
 export default function RootLayout({
