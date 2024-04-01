@@ -11,10 +11,10 @@ const ExperimentCard: React.FC<ExperimentCardProps> = (
         {props.icon}
       </div>
       <div className={`${poppins.variable} font-poppins`}>
-        <h3 className="text-md mb-2 group-hover/item:underline underline-offset-1">
+        <h3 className="text-base md:text-xl mb-2 group-hover/item:underline underline-offset-1">
           {props.title}
         </h3>
-        <p className="text-xs">{props.content}</p>
+        <p className="text-sm md:text-base">{props.content}</p>
       </div>
     </div>
   );
