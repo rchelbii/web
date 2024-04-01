@@ -1,25 +1,12 @@
 import type { Metadata } from "next";
-import { Rammetto_One, Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeContextProvider } from "./theme-context-provider";
-
-const rammetto_one = Rammetto_One({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-rammetto-one",
-});
-
-export const poppins = Poppins({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-poppins",
-});
+import { rammetto_one } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Riadh Chelbi | Software Engineer",
   description:
-    "Riadh Chelbi | Software Engineer | Web Specialist | Restfull API",
+    "Riadh Chelbi | Software Engineer | Web Specialist | Restful API",
 };
 
 export default function RootLayout({

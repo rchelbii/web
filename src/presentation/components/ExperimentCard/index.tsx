@@ -1,4 +1,4 @@
-import { poppins } from "@/app/layout";
+import { poppins } from "@/app/fonts";
 import { ExperimentCardProps } from "@/data/types";
 import React from "react";
 

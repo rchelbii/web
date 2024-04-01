@@ -1,14 +1,5 @@
-import Image from "next/image";
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaLinkedinIn,
-} from "react-icons/fa";
-import { poppins } from "./layout";
 import Expriments from "@/presentation/sections/Experiments";
 import RecentWork from "@/presentation/sections/RecentWork";
-import MediaContact from "@/presentation/components/MediaContact";
 import Header from "@/presentation/sections/Header";
 
 export default function Home() {

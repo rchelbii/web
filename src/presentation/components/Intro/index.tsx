@@ -1,4 +1,4 @@
-import { poppins } from "@/app/layout";
+import { poppins } from "@/app/fonts";
 import Image from "next/image";
 import React from "react";
 import avatar from "@/../public/avatar.png";
@@ -17,9 +17,9 @@ const Intro = () => {
       <p
         className={`${poppins.variable} font-poppins w-11/12 md:w-96 text-sm md:text-base tracking-wide`}
       >
-        I'm a software developer passionate about open source, sustainable tech.
-        I write programs that anyone is allowed to execute, study, modify, or
-        redistribute.
+        I&apos;m a software developer passionate about open source, sustainable
+        tech. I write programs that anyone is allowed to execute, study, modify,
+        or redistribute.
       </p>
       <Image
         src={avatar}
